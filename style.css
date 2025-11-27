@@ -68,12 +68,8 @@ li {
     list-style-type: none;
 }
 
-.flex {
-    display: flex;
-}
-
-.flex-1 {
-    flex: 1;
+.hero__content {
+   display: flex;
 }
 
 .container {
@@ -112,8 +108,9 @@ nav {
     padding: 0 12px;
 }
 
-.nav__link--list {
+.nav__list {
     display: flex;
+    align-items: center;
 }
 
 .nav__link--anchor {
