@@ -68,6 +68,15 @@ li {
     list-style-type: none;
 }
 
+.header__logo--img {
+    width: 70px;
+    height: 70px;
+}
+
+.hero__header {
+    background-color: black;
+}
+
 .hero__content {
    display: flex;
 }
@@ -103,7 +112,6 @@ nav {
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 0 12px;
 }
@@ -111,11 +119,12 @@ nav {
 .nav__list {
     display: flex;
     align-items: center;
+    margin-left: auto;
 }
 
 .nav__link--anchor {
     margin: 0 12px;
-    color: #242424;
+    color: white;
     font-weight: 700;
 }
 
@@ -132,7 +141,7 @@ nav {
 }
 .personal__logo {
     font-size: 24px;
-    color: #6030b1;
+    color: white;
     margin: 0 12px;
     font-weight: bold;
 }
@@ -166,6 +175,7 @@ nav {
     overflow: hidden;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
     margin-bottom: 28px;
+    margin-top: 28px;
     animation: animate-profile-picture 800ms 200ms backwards;
 }
 
