@@ -126,6 +126,7 @@ nav {
     margin: 0 12px;
     color: white;
     font-weight: 700;
+    position: relative;
 }
 
 .nav__link--anchor-primary {
